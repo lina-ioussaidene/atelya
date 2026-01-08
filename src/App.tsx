@@ -33,7 +33,7 @@ const App: React.FC = () => {
               Discutons de votre projet lors d'un premier rendez-vous gratuit.
             </p>
             <a 
-              href="tel:+33123456789"
+              href="tel:+33xxxxxxxxxx"
               className="inline-flex items-center gap-3 bg-stone-900 text-white px-8 py-4 rounded-full font-medium hover:bg-stone-800 transition-all hover:scale-105"
             >
               <Phone size={20} />
