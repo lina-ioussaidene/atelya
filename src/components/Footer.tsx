@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Instagram, Linkedin, Facebook } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -26,9 +26,9 @@ const Footer: React.FC = () => {
           <div className="grid grid-cols-2 gap-12 md:gap-24 text-sm">
             <div>
               <h4 className="text-stone-200 font-medium mb-4">Bureau</h4>
-              <p>15 Avenue des Champs</p>
-              <p>75008 Paris, France</p>
-              <p className="mt-4">+33 1 23 45 67 89</p>
+              <p>Notre adresse</p>
+              <p>France xxxxxx</p>
+              <p className="mt-4">+33 xxxxxxx</p>
               <p>contact@atelya-arch.com</p>
             </div>
             <div>
@@ -44,11 +44,11 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-stone-800 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs">&copy; {new Date().getFullYear()} Atelya Architecture. Tous droits réservés.</p>
+          <p className="text-xs">&copy; {new Date().getFullYear()} Atelya Architecture. Tous droits réservés|Designed by Iousssaidene Lina.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors"><Instagram size={20} /></a>
             <a href="#" className="hover:text-white transition-colors"><Linkedin size={20} /></a>
-            <a href="#" className="hover:text-white transition-colors"><Twitter size={20} /></a>
+            <a href="#" className="hover:text-white transition-colors"><Facebook size={20} /></a>
           </div>
         </div>
       </div>
